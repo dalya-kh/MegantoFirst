@@ -5,7 +5,9 @@
     <classes>
       <class name="magenta2.AddRandomItem">
         <methods>
+          <include name="signup"/>
           <include name="mybeforetest"/>
+          <include name="checkout"/>
           <include name="mytest"/>
         </methods>
       </class> <!-- magenta2.AddRandomItem -->

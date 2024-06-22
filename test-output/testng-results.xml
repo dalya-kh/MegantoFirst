@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-20T14:15:46 EET" name="Default suite" finished-at="2024-06-20T14:16:00 EET" duration-ms="13839">
+  <suite started-at="2024-06-22T13:26:53 EET" name="Default suite" finished-at="2024-06-22T13:27:05 EET" duration-ms="12565">
     <groups>
     </groups>
-    <test started-at="2024-06-20T14:15:46 EET" name="Default test" finished-at="2024-06-20T14:16:00 EET" duration-ms="13839">
+    <test started-at="2024-06-22T13:26:53 EET" name="Default test" finished-at="2024-06-22T13:27:05 EET" duration-ms="12565">
       <class name="magenta2.AddRandomItem">
-        <test-method is-config="true" signature="mybeforetest()[pri:0, instance:magenta2.AddRandomItem@1d730606]" started-at="2024-06-20T14:15:46 EET" name="mybeforetest" finished-at="2024-06-20T14:15:46 EET" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="mybeforetest()[pri:0, instance:magenta2.AddRandomItem@3016fd5e]" started-at="2024-06-22T13:26:53 EET" name="mybeforetest" finished-at="2024-06-22T13:26:56 EET" duration-ms="3110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mybeforetest -->
-        <test-method signature="mytest()[pri:0, instance:magenta2.AddRandomItem@1d730606]" started-at="2024-06-20T14:15:46 EET" name="mytest" finished-at="2024-06-20T14:15:50 EET" duration-ms="4048" status="PASS">
+        <test-method signature="mytest()[pri:1, instance:magenta2.AddRandomItem@3016fd5e]" started-at="2024-06-22T13:26:56 EET" name="mytest" finished-at="2024-06-22T13:26:58 EET" duration-ms="1707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest -->
-        <test-method signature="mytest()[pri:0, instance:magenta2.AddRandomItem@1d730606]" started-at="2024-06-20T14:15:50 EET" name="mytest" finished-at="2024-06-20T14:15:52 EET" duration-ms="2458" status="PASS">
+        <test-method signature="checkout()[pri:2, instance:magenta2.AddRandomItem@3016fd5e]" started-at="2024-06-22T13:26:58 EET" name="checkout" finished-at="2024-06-22T13:27:03 EET" duration-ms="4760" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method signature="mytest()[pri:0, instance:magenta2.AddRandomItem@1d730606]" started-at="2024-06-20T14:15:52 EET" name="mytest" finished-at="2024-06-20T14:15:55 EET" duration-ms="2613" status="PASS">
+        </test-method> <!-- checkout -->
+        <test-method signature="signup()[pri:3, instance:magenta2.AddRandomItem@3016fd5e]" started-at="2024-06-22T13:27:03 EET" name="signup" finished-at="2024-06-22T13:27:05 EET" duration-ms="2946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method signature="mytest()[pri:0, instance:magenta2.AddRandomItem@1d730606]" started-at="2024-06-20T14:15:55 EET" name="mytest" finished-at="2024-06-20T14:15:57 EET" duration-ms="1777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method signature="mytest()[pri:0, instance:magenta2.AddRandomItem@1d730606]" started-at="2024-06-20T14:15:57 EET" name="mytest" finished-at="2024-06-20T14:16:00 EET" duration-ms="2904" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mytest -->
+        </test-method> <!-- signup -->
       </class> <!-- magenta2.AddRandomItem -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
